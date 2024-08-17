@@ -1,0 +1,16 @@
+D:\Centennial\Semester 2\COMP-123_Programming 2\Assignment\Final\Final\GUI\bin\Debug\net8.0-windows\GUI.exe
+D:\Centennial\Semester 2\COMP-123_Programming 2\Assignment\Final\Final\GUI\bin\Debug\net8.0-windows\GUI.deps.json
+D:\Centennial\Semester 2\COMP-123_Programming 2\Assignment\Final\Final\GUI\bin\Debug\net8.0-windows\GUI.runtimeconfig.json
+D:\Centennial\Semester 2\COMP-123_Programming 2\Assignment\Final\Final\GUI\bin\Debug\net8.0-windows\GUI.dll
+D:\Centennial\Semester 2\COMP-123_Programming 2\Assignment\Final\Final\GUI\bin\Debug\net8.0-windows\GUI.pdb
+D:\Centennial\Semester 2\COMP-123_Programming 2\Assignment\Final\Final\GUI\obj\Debug\net8.0-windows\GUI.formCal.resources
+D:\Centennial\Semester 2\COMP-123_Programming 2\Assignment\Final\Final\GUI\obj\Debug\net8.0-windows\GUI.csproj.GenerateResource.cache
+D:\Centennial\Semester 2\COMP-123_Programming 2\Assignment\Final\Final\GUI\obj\Debug\net8.0-windows\GUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Centennial\Semester 2\COMP-123_Programming 2\Assignment\Final\Final\GUI\obj\Debug\net8.0-windows\GUI.AssemblyInfoInputs.cache
+D:\Centennial\Semester 2\COMP-123_Programming 2\Assignment\Final\Final\GUI\obj\Debug\net8.0-windows\GUI.AssemblyInfo.cs
+D:\Centennial\Semester 2\COMP-123_Programming 2\Assignment\Final\Final\GUI\obj\Debug\net8.0-windows\GUI.csproj.CoreCompileInputs.cache
+D:\Centennial\Semester 2\COMP-123_Programming 2\Assignment\Final\Final\GUI\obj\Debug\net8.0-windows\GUI.dll
+D:\Centennial\Semester 2\COMP-123_Programming 2\Assignment\Final\Final\GUI\obj\Debug\net8.0-windows\refint\GUI.dll
+D:\Centennial\Semester 2\COMP-123_Programming 2\Assignment\Final\Final\GUI\obj\Debug\net8.0-windows\GUI.pdb
+D:\Centennial\Semester 2\COMP-123_Programming 2\Assignment\Final\Final\GUI\obj\Debug\net8.0-windows\GUI.genruntimeconfig.cache
+D:\Centennial\Semester 2\COMP-123_Programming 2\Assignment\Final\Final\GUI\obj\Debug\net8.0-windows\ref\GUI.dll
