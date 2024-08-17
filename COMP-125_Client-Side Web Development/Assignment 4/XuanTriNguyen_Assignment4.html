@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <title>Drag and Drop Image - Xuan Tri Nguyen</title>
+    <link rel="stylesheet" href="XuanTriNguyen_Assignment4.css" type="text/css">
+</head>
+<body>
+    <section class="draggable-elements">
+        <i class="fas fa-dragon draggable" draggable="true" style="color: #ff0000;" id="dragon"></i>
+        <i class="fas fa-kiwi-bird draggable" draggable="true" style="color: #36a2eb;" id="kiwi-bird"></i>
+        <i class="fas fa-bug draggable" draggable="true" style="color: #a09300;" id="bug"></i>
+        <i class="fas fa-otter draggable" draggable="true" style="color: #aeb90b;" id="otter"></i>
+        <i class="fas fa-frog draggable" draggable="true" style="color: #00b11d;" id="frog"></i>
+        <i class="fas fa-crow draggable" draggable="true" style="color: #333333;" id="crow"></i>
+        <i class="fas fa-hippo draggable" draggable="true" style="color: #ff9f40;" id="hippo"></i>
+        <i class="fas fa-cow draggable" draggable="true" style="color: #ff99cc;" id="cow"></i>
+      </section>
+      
+        <table>
+            <td>
+                <section class="droppable-elements">
+                <div class="droppable" data-draggable-id="frog"><span>Frog</span></div>
+                <div class="droppable" data-draggable-id="bug"><span>Bug</span></div>
+                <div class="droppable" data-draggable-id="dragon"><span>Dragon</span></div>
+                <div class="droppable" data-draggable-id="otter"><span>Otter</span></div>   
+                </section>               
+            </td>
+            <td>
+                <section class="droppable-elements">
+                <div class="droppable" data-draggable-id="kiwi-bird"><span>Kiwi</span></div>
+                <div class="droppable" data-draggable-id="cow"><span>Cow</span></div>
+                <div class="droppable" data-draggable-id="crow"><span>Crow</span></div>
+                <div class="droppable" data-draggable-id="hippo"><span>Hippo</span></div>
+                </section>
+            </td>
+        </table>           
+    <script  type="text/javascript" src="XuanTriNguyen_Assignment4.js"></script>
+</body>
+</html>
