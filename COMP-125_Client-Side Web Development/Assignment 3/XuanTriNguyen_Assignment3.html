@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Xuan Tri Nguyen-301388576 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application - Xuan Tri Nguyen</title>
+    <link rel="stylesheet" href="XuanTriNguyen_Assignment3.css">
+</head>
+<script src="XuanTriNguyen_Assignment3.js"></script>
+<body>
+    <div class="container">
+        <header>EMPLOYMENT / JOB APPLICATION</header>
+        <form>
+            <div class="form">
+                <div class="personal info">
+                    <span class="title">PERSONAL INFORMATION</span>
+                    <div class="field">
+                        <div class="input">
+                            <label for="fullName">FULL NAME:</label>
+                            <input type="text" id="fullName" name="fullName" placeholder="Enter your name" required>
+                            <label for="date">DATE:</label>
+                            <input type="date" id="date" name="date" required> 
+                            <br>
+                            <label for="address">ADDRESS:</label>
+                            <input style="width: 800px;" type="text" id="address" name="address" placeholder="Enter street address" required>
+                            <br>
+                            <label for="city">CITY: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <input type="text" id="city" name="city" placeholder="Enter city" required>
+                            <label for="state">STATE:</label>
+                            <input type="text" id="state" name="state" placeholder="Enter state" required>
+                            <label for="zipCode">ZIP CODE:</label>
+                            <input type="text" id="zipCode" name="zipCode" placeholder="Enter zipcode" required>
+                            <br>
+                            <label for="email">E-MAIL: &nbsp;&nbsp;&nbsp;</label>
+                            <input type="email" id="email" name="email" placeholder="Enter email" required>
+                            <label for="phone">PHONE:</label>
+                            <input type="text" id="phoneInput" placeholder="Enter phone number">
+                            <br>
+                            <label for="ssn">SOCIAL SECURITY NUMBER (SSN):</label>
+                            <input style="text-align: center; width: 50px;" type="text" id="SINInput" name="ssn1" maxlength="3">
+                            <span  class="dash">-</span>
+                            <input style="text-align: center; width: 50px;" type="text" id="SINInput" name="ssn1" maxlength="3">
+                            <span  class="dash">-</span>
+                            <input style="text-align: center; width: 50px;" type="text" id="SINInput" name="ssn3" maxlength="3">
+                            <br>
+                            <label for="dateAvailable">DATE AVAILABLE:</label>
+                            <input type="date" id="dateAvailable" name="dateAvailable" placeholder="Enter available date" required>
+                            <label for="desiredPay">DESIRED PAY:</label>
+                            <input type="number" id="desiredPay" name="desiredPay" placeholder="Enter desired pay in $">
+                            <input class="checkbox" type="radio" name="hour">
+                            <label  style="font-size: 12px;font-weight: 100; ">HOUR</label>
+                            <input class="checkbox" type="radio" name="salary">
+                            <label style="font-size: 12px;font-weight: 100; ">SALARY</label>                            
+                            <br>
+                            <label for="positionAppliedFor">POSITION APPLIED FOR:</label>
+                            <input type="text" id="positionAppliedFor" name="positionAppliedFor" placeholder="Enter position" required>
+                            <br>
+                            <label>EMPLOYMENT DESIRED:</label>
+                            <input type="radio" id="fullTime" name="employmentDesired" value="fullTime"> 
+                            <label  style="font-size: 12px;font-weight: 100; " for="fullTime">FULL-TIME</label>
+                            <input type="radio" id="partTime" name="employmentDesired" value="partTime"> 
+                            <label  style="font-size: 12px;font-weight: 100; " for="partTime">PART-TIME</label>
+                            <input type="radio" id="seasonal" name="employmentDesired" value="seasonal"> 
+                            <label  style="font-size: 12px;font-weight: 100; " for="seasonal">SEASONAL</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="employment">
+                    <span class="title">EMPLOYMENT ELIGIBILITY</span>
+                    <div class="field">
+                        <div class="input">
+                            <label>ARE YOU A U.S. CITIZEN?</label>
+                            <input type="radio" id="usCitizenYes" name="usCitizen" value="yes"> <label for="usCitizenYes">YES</label>
+                            <input type="radio" id="usCitizenNo" name="usCitizen" value="no"> <label for="usCitizenNo">NO</label>
+                            <br>                          
+                            <div id="workInUsQuestion" style="display: none;">
+                              <label>*IF NO, ARE YOU ALLOWED TO WORK IN THE U.S.?</label>
+                              <input type="radio" id="workInUsYes" name="workInUs" value="yes"> <label for="workInUsYes">YES</label>
+                              <input type="radio" id="workInUsNo" name="workInUs" value="no"> <label for="workInUsNo">NO</label>
+                            </div>
+                            <br>
+                            <label>HAVE YOU EVER WORKED FOR THIS EMPLOYER?</label>
+                            <input type="radio" id="workedForEmployerYes" name="workedForEmployer" value="yes"> <label for="workedForEmployerYes">YES</label>
+                            <input type="radio" id="workedForEmployerNo" name="workedForEmployer" value="no"> <label for="workedForEmployerNo">NO</label>
+                            <br>                          
+                            <div id="workDates" style="display: none;">
+                              <label>*IF YES, PLEASE WRITE THE START AND END DATES</label>
+                              <label for="startDate">START DATE:</label>
+                              <input type="date" id="startDate" name="startDate">
+                              <label for="endDate">END DATE:</label>
+                              <input type="date" id="endDate" name="endDate">
+                            </div>                          
+                            <label>HAVE YOU EVER BEEN CONVICTED OF A FELONY?</label>
+                            <input type="radio" id="felonyYes" name="felony" value="yes"> <label for="felonyYes">YES</label>
+                            <input type="radio" id="felonyNo" name="felony" value="no"> <label for="felonyNo">NO</label>
+                            <br>                          
+                            <div id="felonyExplanationDiv" style="display: none;">
+                              <label for="felonyExplanation">*IF YES, PLEASE EXPLAIN:</label>
+                              <textarea id="felonyExplanation" name="felonyExplanation"></textarea>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                <div class="education">
+                    <span class="title">EDUCATION</span>
+                    <div class="field">
+                        <div class="input">
+                            <label for="highSchool">HIGH SCHOOL:</label>
+                            <select id="highSchool" name="highSchool" required>
+                              <option value="">Vaughan Road Academy</option>
+                              <option value="School1">Agincourt Collegiate Institute</option>
+                              <option value="School2">Albert Campbell Collegiate Institute</option>
+                              <option value="School3">Birchmount Park Collegiate Institute</option>
+                            </select>
+                            <label for="highSchoolCityState">CITY/STATE:</label>
+                            <input type="text" id="highSchoolCityState" name="highSchoolCityState" placeholder="Enter school location" required>
+                            <br>
+                            <label for="highSchoolFrom">FROM:</label>
+                            <input type="date" id="highSchoolFrom" name="highSchoolFrom" required>
+                            <label for="highSchoolTo">TO:</label>
+                            <input type="date" id="highSchoolTo" name="highSchoolTo" required>
+                            <br>
+                            <label>GRADUATE?</label>
+                            <input type="radio" id="highSchoolGraduateYes" name="highSchoolGraduate" value="yes"> <label for="highSchoolGraduateYes">YES</label>
+                            <input type="radio" id="highSchoolGraduateNo" name="highSchoolGraduate" value="no"> <label for="highSchoolGraduateNo">NO</label>
+                            <label for="highSchoolDiploma">DIPLOMA:</label>
+                            <input type="text" id="highSchoolDiploma" placeholder="Enter diploma" name="highSchoolDiploma">
+                            <br>
+                            <label for="college">COLLEGE:</label>
+                            <input type="text" id="college" name="college" placeholder="Enter degree" required>
+                            <br>
+                            <label>GRADUATE?</label>
+                            <input type="radio" id="highSchoolGraduateYes" name="highSchoolGraduate" value="yes"> <label for="highSchoolGraduateYes">YES</label>
+                            <input type="radio" id="highSchoolGraduateNo" name="highSchoolGraduate" value="no"> <label for="highSchoolGraduateNo">NO</label>
+                            <label for="highSchoolDiploma">DEGREE:</label>
+                            <input type="text" id="highSchoolDiploma" placeholder="Enter diploma" name="highSchoolDiploma">
+                            
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </form>        
+    </div>    
+</body>
+</html>
